@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #9f3647;
+    background-color: #FFA500;
+    color: white;
+    height: 10vh;
+    text-align: center;
+}
+
+nav {
+    padding: 1.5vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color:white;
+    text-decoration: none;  
+}
+
+#icono:after {
+    content: attr(data-);
+    position: relative;
+    top: 25px;
+    left: -70px;
+    background: red;
+    color: white;
+    padding: 3px;
+    opacity: 0;
+    transition: 0.5s 0;
+}
+
+#icono:hover:after {
+    opacity: 1;
+}
+
+a > button {
+    background-color: black; 
+    border-radius: 9px;
+    padding: 0 9px;
+    color: white;
+    height: 7vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+#noTocar {
+    display: inline;
+}
+
+#noTocar:hover {
+    display: none;
+    color: #FFA500;
+}
+
+p {
+    margin: 45px;
+}
+
+section {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Tourney", sans-serif;
+}
+
+#section01 {
+    height: 70vh;
+    background-image: url(images/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#section01 > h2 {
+    font-size: 7vh;
+}
+
+#section01 > p {
+    font-size: 3vh;
+}
+
+#section01 > a > button {
+    margin-top: 70px;
+    padding: 0 25px 0 25px;
+    background-color: #9f3647;
+    background-color: #FFA500;
+    box-shadow: 2px 2px 2px white;
+}
+
+#section02, #section03, #section04 {
+    padding: 45px 0;
+    border-bottom: 3px solid #9f3647;
+    border-color: #FFA500;
+}
+
+#section02 > h2,form {
+    display: inline;
+}
+
+#section02 > form > input {
+    font-size: 3vh;
+}
+
+#section02 > form > input[type="submit"] {
+    border-radius: 9px;
+    padding: 0 9px;
+}
+
+#botonS2 {
+    background-color: #9f3647;
+    background-color: #FFA500;
+    color: white;
+}
+
+#section03 > a > img {
+    margin: 10px;
+    height: 25vh;
+}
+
+#section03 > a > button {
+    margin: 10px;
+    background-color: #9f3647;
+    background-color: #FFA500;
+}
+
+#section04 > a > img {
+    margin: 16px;
+    background-color: #9f3647;
+}
