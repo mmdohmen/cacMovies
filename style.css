@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
+
 header, footer {
     background-color: #9f3647;
+    background-color: black;
     background-color: #FFA500;
     color: white;
     height: 10vh;
@@ -13,7 +15,7 @@ header, footer {
 }
 
 nav {
-    padding: 1.5vh;
+    background-color: #FFA500;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
@@ -39,6 +41,16 @@ a {
 
 #icono:hover:after {
     opacity: 1;
+}
+
+.navbar-toggler {
+    color: white !important;
+    border: 2px solid white !important;
+    margin-right: 25px;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
 }
 
 a > button {
@@ -89,11 +101,11 @@ h2 {
     font-size: 7vh;
 }
 
-#section01 > p {
+#section01 > div > p {
     font-size: 3vh;
 }
 
-#section01 > a > button {
+#registrate {
     margin-top: 70px;
     padding: 0 25px 0 25px;
     background-color: #9f3647;
@@ -111,13 +123,14 @@ h2 {
     display: inline;
 }
 
-#section02 > form > input {
+#section02 > div > form > input {
+    border-radius: 70px;
     font-size: 3vh;
 }
 
-#section02 > form > input[type="submit"] {
-    border-radius: 9px;
-    padding: 0 9px;
+#section02 > div > form > input[type="submit"] {
+    border-radius: 70px;
+    padding: 0 16px;
 }
 
 #botonS2 {
@@ -126,12 +139,12 @@ h2 {
     color: white;
 }
 
-#section03 > a > img {
+#section03 > .row > .col > a > img {
     margin: 10px;
     height: 25vh;
 }
 
-#section03 > a > button {
+#section03 > .row > .col > a > button {
     margin: 10px;
     background-color: #9f3647;
     background-color: #FFA500;

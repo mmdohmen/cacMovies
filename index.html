@@ -7,74 +7,126 @@
     <title>
         <menu type="toolbar"></menu>
     </title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Vinyl&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Vinyl&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <a href="" data-="ir aL INICIO" id="icono"><img src="images/iconoPelis.jpg" alt="" height="25px"> CAC-movies</a>
-            <a href="">Tendencias</a>
-            <a href="">Registrarse</a>
-            <a href=""><button> Iniciar Sesion</button></a>
-            <p id="noTocar">🛑 no tocar</p>
-        </nav>
+    <header class="container-fluid">
+        <div class="row">
+            <nav class="navbar fixed-top">
+                <a class="" href="" data-="ir aL INICIO" id="icono"><img src="images/iconoPelis.jpg" alt=""
+                        height="25px"> CAC-movies</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="">Tendencias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">Registrarse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href=""><button> Iniciar Sesion</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <hr>
 
     <main>
-        <section id="section01">
-            <h2>Peliculas & Series ilimitadas en un solo lugar</h2>
-            <p>Disfruta donde quieras</p>
-            <p>Cancela en cualquier momento</p>
-            <a href=""><button draggable="true">Registrate</button></a>
+        <section id="section01" class="container-fluid">
+            <div class="row">
+                <h2>Peliculas & Series ilimitadas en un solo lugar</h2>
+            </div>
+            <div class="div">
+                <p>Disfruta donde quieras</p>
+            </div>
+            <div class="div">
+                <p>Cancela en cualquier momento</p>
+            </div>
+            <div class="div"><a href=""><button id="registrate" draggable="true">Registrate</button></a></div>
         </section>
 
-        <section id="section02">
-            <h2>que estas buscando para ver ?... </h2>
-            <form action="">
-                <input type="text" name="" id="">
-                <input type="submit" value="Buscar" id="botonS2">
-            </form>
+        <section id="section02" class="container-fluid">
+            <div class="row">
+                <h2>que estas buscando para ver ?... </h2>
+                <form action="">
+                    <input type="text" name="" id="">
+                    <input type="submit" value="Buscar" id="botonS2">
+                </form>
+            </div>
         </section>
 
-        <section id="section03">
-            <h2>Tendencias</h2>
-            <a href=""><img src="images/peakyBlinders.jpeg" alt="Peaky Blinders"></a>
-            <a href=""><img src="images/sociedadNieve.jpeg" alt="La Sociedad de la Nieve"></a>
-            <a href=""><img src="images/oppenheimer.jpeg" alt=""></a>
-            <br>
-            <a href=""><button>anterior</button></a>
-            <a href=""><button>siguiente</button></a>
+        <section id="section03" class="container-fluid">
+            <div class="row">
+                <h2>Tendencias</h2>
+            </div>
+            <div class="row">
+                <div class="col"><a href=""><img src="images/peakyBlinders.jpeg" alt="Peaky Blinders"></a></div>
+                <div class="col"><a href=""><img src="images/sociedadNieve.jpeg" alt="La Sociedad de la Nieve"></a>
+                </div>
+                <div class="col"><a href=""><img src="images/oppenheimer.jpeg" alt=""></a></div>
+
+            </div>
+            <div class="row">
+                <div class="col"><a href=""><button>anterior</button></a></div>
+                <div class="col"><a href=""><button>siguiente</button></a></div>
+
+            </div>
         </section>
 
-        <section id="section04">
-            <h2>Las mas aclamadas</h2>
-            <a href=""><img src="images/atomica.jpeg" alt="Atomica"></a>
-            <a href=""><img src="images/readyPlayer1.jpeg" alt="Ready Player 1"></a>
-            <a href=""><img src="images/hotelTransylvania.jpeg" alt="Hotel Transylvania"></a>
-            <a href=""><img src="images/sicario.jpeg" alt="Sicario"></a>
+        <section id="section04" class="container-fluid">
+            <div class="row">
+                <h2>Las mas aclamadas</h2>
+            </div>
+            <div class="row">
+                <div class="col"><a href=""><img src="images/atomica.jpeg" alt="Atomica"></a></div>
+                <div class="col"><a href=""><img src="images/readyPlayer1.jpeg" alt="Ready Player 1"></a></div>
+                <div class="col"><a href=""><img src="images/hotelTransylvania.jpeg" alt="Hotel Transylvania"></a></div>
+                <div class="col"><a href=""><img src="images/sicario.jpeg" alt="Sicario"></a></div>
+
+            </div>
         </section>
 
     </main>
 
 
-    <footer>
+    <footer class="container-fluid">
         <nav>
-            <a href="">Terminos y condiciones</a>
-            <a href="">Preguntas frecuentes</a>
-            <a href="">Ayuda</a>
-            <a href=""><button>Administrador Peliculas</button></a>
-            <a href="#" title="ir al INICIO">⏏</a>
+          
+                <a href="">Terminos y condiciones</a>
+                <a href="">Preguntas frecuentes</a>
+                <a href="">Ayuda</a>
+                <a href=""><button>Administrador Peliculas</button></a>
+                <a href="#" title="ir al INICIO">⏏</a>
+        
         </nav>
     </footer>
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
 
