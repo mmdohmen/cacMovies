@@ -58,10 +58,10 @@ a > button {
     border-radius: 9px;
     padding: 0 9px;
     color: white;
-    height: 7vh;
+    height: 25px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 16px;
 }
 
 #noTocar {
@@ -153,4 +153,8 @@ h2 {
 #section04 > a > img {
     margin: 16px;
     background-color: #9f3647;
+}
+
+footer {
+    padding-top: 16px;
 }
